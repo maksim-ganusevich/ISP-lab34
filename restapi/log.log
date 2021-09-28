@@ -1,0 +1,77 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.2.15:5000/ (Press CTRL+C to quit)
+INFO:app.restapi:Post request initiated
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:13] "POST /rest/ HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:15] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Users are getting income from their army's
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:16] "PUT /rest/ HTTP/1.1" 200 -
+INFO:app.restapi:Get method initialized
+INFO:app.restapi:BusinessMenu was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:17] "GET /rest/BusinessMenu HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:19] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy company
+INFO:app.restapi:User: 733001611 bought company
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:21] "POST /rest/BuyCompany HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy fabric
+INFO:app.restapi:User: 733001611 bought fabric
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:25] "POST /rest/BuyFabric HTTP/1.1" 200 -
+INFO:app.restapi:Get method initialized
+INFO:app.restapi:BackMenu was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:27] "GET /rest/BackMenu HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:29] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Users are getting income from their army's
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:31] "PUT /rest/ HTTP/1.1" 200 -
+INFO:app.restapi:Get method initialized
+INFO:app.restapi:BusinessMenu was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:38] "GET /rest/BusinessMenu HTTP/1.1" 200 -
+INFO:app.restapi:Users are getting income from their army's
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:47] "PUT /rest/ HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy company
+INFO:app.restapi:User: 733001611 bought company
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:49] "POST /rest/BuyCompany HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy company
+INFO:app.restapi:User: 733001611 bought company
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:51] "POST /rest/BuyCompany HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy company
+INFO:app.restapi:User: 733001611 bought company
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:53] "POST /rest/BuyCompany HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy company
+INFO:app.restapi:User: 733001611 bought company
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:55] "POST /rest/BuyCompany HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:User: 733001611 is trying to buy monopoly
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:19:57] "POST /rest/BuyMonopoly HTTP/1.1" 200 -
+INFO:app.restapi:Get method initialized
+INFO:app.restapi:BackMenu was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:00] "GET /rest/BackMenu HTTP/1.1" 200 -
+INFO:app.restapi:Users are getting income from their army's
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:02] "PUT /rest/ HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:03] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:08] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:15] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Users are getting income from their army's
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:17] "PUT /rest/ HTTP/1.1" 200 -
+INFO:app.restapi:Post request initiated
+INFO:app.restapi:Balance was returned
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:29] "POST /rest/BalanceMenu HTTP/1.1" 200 -
+INFO:app.restapi:Users are getting income from their army's
+INFO:werkzeug:127.0.0.1 - - [28/Sep/2021 12:20:33] "PUT /rest/ HTTP/1.1" 200 -

@@ -1,0 +1,44 @@
+version: "3.9"
+
+networks:
+    ganusevichnetwork:
+        name: ganusevichnetwork
+
+services:
+    flask_db:
+        image: postgres
+        restart: always
+        environment:
+            POSTGRES_DB: flask_db
+            POSTGRES_USER: qwerty
+            POSTGRES_PASSWORD: 1234
+        networks:
+            - ganusevichnetwork
+        volumes:
+            - "pgdata:/var/lib/postgresql/data"
+            
+    bot_back:
+        image: maksimganusevich/back
+        restart: always
+        networks:
+            - ganusevichnetwork
+        depends_on:
+            - flask_db
+        ports:
+            - "5000:5000"
+
+    bot_front:
+        environment:
+            BOT_TOKEN: "2013117162:AAEVvsH6A5EEyO-v-kCXctidyNiWBPljlII"
+            WEBHOOK_URL: "https://0656-46-216-181-36.eu.ngrok.io"
+            URL_WEB: "https://0453-46-216-181-36.eu.ngrok.io"
+        image: maksimganusevich/front
+        restart: always
+        networks:
+            - ganusevichnetwork
+        ports:
+            - "5001:5001"
+            
+volumes:
+     pgdata:
+
